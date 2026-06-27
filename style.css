@@ -7,7 +7,7 @@ body{
     background:#0b1020;
     color:#fff;
     font-family:Arial, sans-serif;
-}
+}.hero{
     width:90%;
     margin:80px auto;
     display:flex;
