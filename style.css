@@ -138,4 +138,56 @@
 }
 
 }
+}/* ===========================
+   Market Section
+=========================== */
+
+.market{
+    width:90%;
+    margin:100px auto;
+}
+
+.market h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.market-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:25px;
+}
+
+.market-card{
+    background:#131C35;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:30px;
+    transition:.35s;
+}
+
+.market-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(108,99,255,.25);
+}
+
+.market-card h3{
+    color:#B8C1D9;
+    margin-bottom:15px;
+}
+
+.market-card h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.up{
+    color:#22C55E;
+    font-weight:600;
+}
+
+.down{
+    color:#EF4444;
+    font-weight:600;
 }
