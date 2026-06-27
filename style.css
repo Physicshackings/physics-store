@@ -126,7 +126,11 @@ body{
     text-align:center;
 }
 
-.hero-text h1{
+.hero h1{
+    color:#fff;
+    font-size:3rem;
+    font-weight:800;
+}
     font-size:40px;
 }
 
