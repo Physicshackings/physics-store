@@ -1,1 +1,102 @@
-body{font-family:Arial;background:#0d1117;color:#fff;margin:0}header{display:flex;justify-content:space-between;padding:20px;background:#161b22}.logo{color:#00bcd4;font-weight:bold}.hero,.market,.wallet{text-align:center;padding:60px}.btn{background:#00bcd4;color:#fff;padding:12px 24px;text-decoration:none;border-radius:8px}
+/* ===========================
+   Physics Store V2
+   Premium Crypto Dashboard
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --bg:#070B17;
+    --bg2:#10182E;
+    --card:#131C35;
+    --primary:#6C63FF;
+    --secondary:#8B5CF6;
+    --text:#FFFFFF;
+    --text2:#B8C1D9;
+    --green:#22C55E;
+    --red:#EF4444;
+    --border:rgba(255,255,255,.08);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}/* Navigation */
+
+header{
+    width:100%;
+    background:#0A1022;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo h2{
+    font-size:28px;
+    color:#fff;
+}
+
+.logo span{
+    color:#b8c1d9;
+    font-size:13px;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    align-items:center;
+}
+
+.nav-links a{
+    color:#fff;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#6C63FF;
+}
+
+.btn-register{
+    background:linear-gradient(90deg,#6C63FF,#8B5CF6);
+    padding:12px 22px;
+    border-radius:10px;
+    color:#fff !important;
+}
+
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
