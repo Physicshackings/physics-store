@@ -1,0 +1,305 @@
+/* ==========================================
+   Physics Store V1.0 Production
+   Main Stylesheet
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f7f9fc;
+    color:#222;
+    line-height:1.7;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* ===========================
+   Navigation
+=========================== */
+
+.navbar{
+    background:#ffffff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.logo span{
+    color:#2563eb;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#2563eb;
+}
+
+.nav-buttons{
+    display:flex;
+    gap:12px;
+}
+
+.login-btn,
+.cart-btn,
+.btn-primary,
+.btn-secondary{
+    padding:12px 22px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.login-btn{
+    background:#2563eb;
+    color:#fff;
+}
+
+.cart-btn{
+    background:#111827;
+    color:#fff;
+}
+
+.btn-primary{
+    background:#2563eb;
+    color:#fff;
+    display:inline-block;
+}
+
+.btn-secondary{
+    background:#e5e7eb;
+    color:#111827;
+    display:inline-block;
+}
+
+.btn-primary:hover,
+.login-btn:hover{
+    background:#1d4ed8;
+}
+
+.btn-secondary:hover{
+    background:#d1d5db;
+}
+
+/* ===========================
+   Hero
+=========================== */
+
+.hero{
+    padding:80px 0;
+}
+/* ===========================
+   Section Titles
+=========================== */
+
+.section-title{
+    text-align:center;
+    font-size:38px;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#6b7280;
+    margin-bottom:50px;
+}
+
+/* ===========================
+   Featured Products
+=========================== */
+
+.featured-products{
+    padding:80px 0;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+    padding-bottom:25px;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.product-card h3{
+    padding:20px 20px 10px;
+    font-size:22px;
+}
+
+.product-card p{
+    padding:0 20px;
+    color:#666;
+}
+
+.price{
+    display:block;
+    padding:20px;
+    font-size:24px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+.product-card .btn-primary{
+    margin-left:20px;
+}
+
+/* ===========================
+   Categories
+=========================== */
+
+.categories{
+    padding:80px 0;
+    background:#eef5ff;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+}
+
+.category-card{
+    background:#fff;
+    padding:35px 20px;
+    border-radius:15px;
+    text-align:center;
+    font-size:42px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+}
+
+.category-card h3{
+    font-size:20px;
+    margin-top:15px;
+    color:#0f172a;
+}
+
+/* ===========================
+   Why Choose Us
+=========================== */
+
+.why-us{
+    padding:80px 0;
+}
+
+.features-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.feature-box{
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-box:hover{
+    transform:translateY(-6px);
+}
+
+.feature-box h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.feature-box p{
+    color:#555;
+}
+.hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:50px;
+}
+
+.hero h1{
+    font-size:52px;
+    line-height:1.2;
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
