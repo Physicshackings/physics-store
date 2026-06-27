@@ -34,7 +34,10 @@ body{
     -webkit-text-fill-color:transparent;
 }
 
-.hero-text p{
+.hero p{
+    color:#b8c1d9;
+    line-height:1.8;
+}
     color:#B8C1D9;
     font-size:18px;
     line-height:1.8;
