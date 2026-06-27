@@ -67,4 +67,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-});
+});const menuToggle = document.getElementById("menuToggle");
+
+const mobileMenu = document.getElementById("mobileMenu");
+
+const closeMenu = document.getElementById("closeMenu");
+
+menuToggle.onclick = () => {
+mobileMenu.classList.add("active");
+};
+
+closeMenu.onclick = () => {
+mobileMenu.classList.remove("active");
+};
