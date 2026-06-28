@@ -220,11 +220,25 @@ img{
    Mobile Responsive
 =========================== */
 
-@media(max-width:900px){
-}
+@media (max-width:900px){
+
 .hero{
     flex-direction:column;
     text-align:center;
+}
+
+.hero h1{
+    color:#fff;
+    font-size:40px;
+    font-weight:800;
+}
+
+.menu-toggle{
+    display:block;
+    font-size:32px;
+    cursor:pointer;
+}
+
 }
 
 .hero h1{
