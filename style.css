@@ -399,7 +399,10 @@ text-align:center;
     padding:20px;
 }
 
-.market h2,
+.market{
+    width:90%;
+    margin:100px auto;
+}
 .plans h2{
     text-align:center;
     color:#fff;
