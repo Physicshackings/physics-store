@@ -86,9 +86,6 @@ img{
 
 
 
-.hero-text h1{
-    font-size:42px;
-}
 
 .hero-text span{
     color:#00d4ff;
@@ -99,10 +96,6 @@ img{
     font-size:18px;
     line-height:1.8;
     margin-bottom:35px;
-}
-.hero-buttons{
-    display:flex;
-    gap:20px;
 }
 
 .btn-primary{
@@ -134,7 +127,7 @@ img{
 }
 
 .hero-text h1{
-    font-size:60px;
+    font-size:30px;
     line-height:1.2;
     margin-bottom:25px;
     color:#fff;
@@ -245,20 +238,6 @@ img{
     cursor:pointer;
 }
 
-.hero-buttons{
-    justify-content:center;
-}
-
-}
-/* ===========================
-   Market Section
-=========================== */
-
-.market{
-    width:90%;
-    margin:100px auto;
-}
-
 .market h2{
     text-align:center;
     font-size:40px;
@@ -302,13 +281,6 @@ img{
 .down{
     color:#EF4444;
     font-weight:600;
-}/* ===========================
-   Investment Plans
-=========================== */
-
-.plans{
-    width:90%;
-    margin:100px auto;
 }
 
 .plans h2{
