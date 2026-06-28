@@ -241,17 +241,6 @@ img{
 
 }
 
-.hero h1{
-    color:#fff;
-    font-size:40px;
-    font-weight:800;
-}
-.menu-toggle{
-    display:block;
-    font-size:32px;
-    cursor:pointer;
-}
-
 .market h2{
     text-align:center;
     font-size:40px;
@@ -453,8 +442,7 @@ text-align:center;
 
 .plan-card li{
     margin:10px 0;
-}@media (max-width:768px){
-
+}
 .hero{
     flex-direction:column;
     text-align:center;
@@ -518,4 +506,4 @@ border:none;
 color:white;
 font-size:32px;
 cursor:pointer;
-}}
+}
