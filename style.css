@@ -84,17 +84,7 @@ img{
    HERO
 ========================= */
 
-.hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:80px 8%;
-    gap:60px;
-}
 
-.hero-text{
-    flex:1;
-}
 
 .hero-text h1{
     font-size:42px;
