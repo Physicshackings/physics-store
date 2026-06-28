@@ -105,11 +105,12 @@ img{
     color:#00d4ff;
 }
 
-.hero-text p{
-    color:#c7c7c7;
+.hero p{
+    color:#B8C1D9;
+    font-size:18px;
+    line-height:1.8;
     margin-bottom:35px;
 }
-
 .hero-buttons{
     display:flex;
     gap:20px;
@@ -128,12 +129,7 @@ img{
     padding:15px 28px;
     border-radius:8px;
 }
-body{
-    margin:0;
-    background:#0b1020;
-    color:#fff;
-    font-family:Arial, sans-serif;
-}
+
 .hero{
     width:90%;
     margin:40px auto;
@@ -159,16 +155,6 @@ body{
     background:linear-gradient(90deg,#6C63FF,#8B5CF6,#3B82F6);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
-}
-
-.hero p{
-    color:#b8c1d9;
-    line-height:1.8;
-}
-    color:#B8C1D9;
-    font-size:18px;
-    line-height:1.8;
-    margin-bottom:35px;
 }
 
 .hero-buttons{
