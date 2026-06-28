@@ -247,16 +247,9 @@ img{
 
 .hero h1{
     color:#fff;
-    font-size:3rem;
+    font-size:40px;
     font-weight:800;
 }
-    font-size:40px;
-}
-
-.nav-links{
-    display:none;
-}
-
 .menu-toggle{
     display:block;
     font-size:32px;
@@ -268,7 +261,7 @@ img{
 }
 
 }
-}/* ===========================
+/* ===========================
    Market Section
 =========================== */
 
@@ -404,8 +397,7 @@ display:block;
 }
 
 .market-grid,
-.plan-grid,
-.features-grid{
+.plans-grid{
 grid-template-columns:1fr;
 }
 
@@ -413,12 +405,11 @@ grid-template-columns:1fr;
 display:none;
 }
 
-.menu-btn{
+.menu-toggle{
 display:block;
 font-size:32px;
 cursor:pointer;
 }
-
 .btn-primary,
 .btn-secondary{
 display:block;
