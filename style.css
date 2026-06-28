@@ -231,7 +231,10 @@ img{
 
     to{
         transform:translateX(-100%);
-    }/* ===========================
+    }
+}
+
+/* ===========================
    Mobile Responsive
 =========================== */
 
@@ -254,8 +257,10 @@ img{
     display:none;
 }
 
-.menu-btn{
+.menu-toggle{
     display:block;
+    font-size:32px;
+    cursor:pointer;
 }
 
 .hero-buttons{
